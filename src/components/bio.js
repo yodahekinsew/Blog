@@ -20,6 +20,8 @@ const Bio = () => {
           }
           social {
             twitter
+            youtube
+            itch
           }
         }
       }
@@ -36,9 +38,9 @@ const Bio = () => {
         className="bio-avatar"
         layout="fixed"
         formats={["AUTO", "WEBP", "AVIF"]}
-        src="../images/profile-pic.png"
-        width={50}
-        height={50}
+        src="../images/yodahe-games.png"
+        width={75}
+        height={75}
         quality={95}
         alt="Profile picture"
       />
@@ -47,7 +49,13 @@ const Bio = () => {
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
           <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
+            You should follow him on Twitter,
+          </a>
+          <a href={`https://youtube.com/${social?.twitter || ``}`}>
+            check out his videos on Youtube,
+          </a>
+          <a href={`https://${social?.itch || ``}.itch.io`}>
+            or play some of his games on Itch.io
           </a>
         </p>
       )}

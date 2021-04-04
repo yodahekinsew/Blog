@@ -1,14 +1,17 @@
 module.exports = {
+  pathPrefix: "/blog",
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Yodahe Games`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Yodahe Alemu`,
+      summary: `who plays and makes video games in his free time.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `yodahegames`,
+      youtube: `yodahegames`,
+      itch: `yodahegames`
     },
   },
   plugins: [
