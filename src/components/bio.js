@@ -39,8 +39,8 @@ const Bio = () => {
         layout="fixed"
         formats={["AUTO", "WEBP", "AVIF"]}
         src="../images/yodahe-games.png"
-        width={75}
-        height={75}
+        width={50}
+        height={50}
         quality={95}
         alt="Profile picture"
       />
